@@ -4,7 +4,13 @@
 
     font-family: 'Inter';
     font-style: normal;
+    
 }
+
+body { 
+    background-color: transparent;
+}
+  
 
 html, body {
     display: flex;
@@ -118,6 +124,8 @@ html, body {
    
 
     font-size: 17px;
+
+    text-decoration: none;
 }
 
 .footer {
@@ -131,7 +139,7 @@ html, body {
     
     background-color: rgb(25, 13, 99);
     color: white;
-
+    width: 100%;
     margin-top: auto;
 
     /* flex: 0; */
@@ -166,3 +174,123 @@ html, body {
     background-size: contain;
 }
 
+/* Methods */
+
+.method_main {
+    display: flex;
+    
+    flex-direction: column;
+    /* align-items: center; */
+    flex-wrap: nowrap;
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.descr_method {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid gainsboro;
+    background-color:rgb(249, 249, 249);
+    border-radius: 10px;
+    padding: 20px;
+    width: 100%;
+    margin-top: 30px;
+    /* margin-bottom: 10px; */
+}
+
+.descr_method h3 {
+    padding: 10px 20px;
+}
+
+.descr_method p {
+    padding: 5px 0px;
+}
+
+.tasks {
+    display: flex;
+    flex-direction: column;
+}
+
+.task {
+    border: 2px solid gainsboro;
+    background-color:rgb(249, 249, 249);
+    border-radius: 10px;
+    padding: 20px;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color:rgb(249, 249, 249);
+}
+
+.task h3 {
+    padding: 10px 20px;
+}
+
+.task p {
+    padding: 5px 0px;
+}
+
+.triangle_img {
+    background-color: transparent;
+}
+
+/* .next_prev {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* width: 100vh; */
+    
+    width: 100%;
+
+    /* margin: 30px 0; */
+
+} */
+
+a {
+    text-decoration: none;
+    color: black
+}
+
+/* .prev {
+    border: 2px solid gainsboro;
+    background-color:rgb(249, 249, 249);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.next {
+    border: 2px solid gainsboro;
+    background-color:rgb(249, 249, 249);
+    border-radius: 10px;
+    padding: 20px;
+} */
+
+.next_prev {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.prev {
+    border: 2px solid gainsboro;
+    background-color:rgb(249, 249, 249);
+    border-radius: 10px;
+    padding: 20px;
+    /* width: 100%; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color:rgb(249, 249, 249);
+}
+
+.next {
+    border: 2px solid gainsboro;
+    background-color:rgb(249, 249, 249);
+    border-radius: 10px;
+    padding: 20px;
+    /* width: 100%; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color:rgb(249, 249, 249);
+}
