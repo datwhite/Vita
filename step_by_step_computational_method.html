@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,300;1,400&display=swap"
+        rel="stylesheet">
     </style>
 
 </head>
@@ -32,16 +33,524 @@
         <div class="tasks">
             <div class="task">
                 <h3>Пример №1</h3>
-                <p>В правильной пирамиде DABC с вершиной D и треугольным основанием ABC сторона основания равна 27, а
-                    высота равна 9. На ребрах AB, AC и AD отмечены соответственно точки F, G и E такие, что AF=AG=AD,
-                    AE=12.</p>
-                <p>а) Докажите, что плоскости FGE и DBC параллельны.</p>
-                <p>б) Найдите объем пирамиды EDBC.</p>
+                <p>В правильной пирамиде <i>DABC</i> с вершиной <i>D</i> и треугольным основанием <i>ABC</i> сторона
+                    основания равна 27, а
+                    высота равна 9. На ребрах <i>AB</i>, <i>AC</i> и <i>AD</i> отмечены соответственно точки <i>F</i>,
+                    <i>G</i> и <i>E</i> такие, что <i>AF=AG=AD,
+                        AE=12.</i>
+                </p>
+                <p>а) Докажите, что плоскости <i>FGE</i> и <i>DBC</i> параллельны.</p>
+                <p>б) Найдите объем пирамиды <i>EDBC.</i></p>
                 <h3>Решение</h3>
-                <p>а) Пусть DH – высота пирамиды. Так как высота правильной пирамиды проецируется в точку пересечения
-                    высот (медиан, биссектрис) ее основания, то AH – высота, медиана, биссектриса ∆ABC. Так как центром
+                <p>а) Пусть <i>DH</i> – высота пирамиды. Так как высота правильной пирамиды проецируется в точку
+                    пересечения
+                    высот (медиан, биссектрис) ее основания, то <i>AH</i> – высота, медиана, биссектриса <i>∆ABC</i>.
+                    Так как центром
                     описанной около треугольника окружности является точка, в которой пересекаются все серединные
-                    перпендикуляры, проведённые к сторонам треугольника, то</p>
+                    перпендикуляры, проведённые к сторонам треугольника, то
+                </p>
+                <p>
+                    <math display="block">
+                        <mi>A</mi>
+                        <mi>H</mi>
+                        <mo>=</mo>
+                        <msub>
+                            <mi>R</mi>
+                            <ms>опис.ок.</ms>
+                        </msub>
+                    </math>
+                </p>
+                <p>
+                    <math display="block">
+                        <mi>A</mi>
+                        <mi>H</mi>
+                        <mo>=</mo>
+                        <mfrac>
+                            <mrow>
+                                <mi>A</mi>
+                                <mi>B</mi>
+                            </mrow>
+                            <mrow>
+                                <mn>2</mn>
+                                <mi>sin</mi>
+                                <mi>&#8736</mi>
+                                <mi>A</mi>
+                                <mi>C</mi>
+                                <mi>B</mi>
+                            </mrow>
+                        </mfrac>
+                        <mo>=</mo>
+                        <mfrac>
+                            <mrow>
+                                <mn>27</mn>
+                            </mrow>
+                            <mrow>
+                                <mn>2</mn>
+                                <mo>&#8901</mo>
+                                <mfrac>
+                                    <mrow>
+                                        <msqrt>
+                                            <mn>3</mn>
+                                        </msqrt>
+                                    </mrow>
+                                    <mrow>
+                                        <mn>2</mn>
+                                    </mrow>
+                                </mfrac>
+                            </mrow>
+                        </mfrac>
+                        <mo>=</mo>
+                        <mn>9</mn>
+                        <msqrt>
+                            <mn>3</mn>
+                        </msqrt>
+
+                    </math>
+                </p>
+                <p>По теореме Пифагора из п/у <i>∆ADH</i>:</p>
+                <p>
+                    <math display="block">
+                        <mi>A</mi>
+                        <mi>D</mi>
+                        <mo>=</mo>
+                        <msqrt>
+                            <msup>
+                                <mrow>
+                                    <mi>A</mi>
+                                    <mi>H</mi>
+                                </mrow>
+                                <mn>2</mn>
+                            </msup>
+                            <mo>+</mo>
+                            <msup>
+                                <mrow>
+                                    <mi>D</mi>
+                                    <mi>H</mi>
+                                </mrow>
+                                <mn>2</mn>
+                            </msup>
+                        </msqrt>
+                        <mo>=</mo>
+                        <msqrt>
+                            <mn>243</mn>
+                            <mo>+</mo>
+                            <mn>81</mn>
+                        </msqrt>
+                        <mo>=</mo>
+                        <mn>18</mn>
+                    </math>
+                </p>
+                <p>Следовательно <i>DE=6, AF=AG=AD=18</i>.</p>
+                <p>Заметим соотношения:</p>
+                <p>
+                    <math display="block">
+                        <mfrac>
+                            <mrow>
+                                <mi>A</mi>
+                                <mi>F</mi>
+                            </mrow>
+                            <mrow>
+                                <mi>A</mi>
+                                <mi>B</mi>
+                            </mrow>
+                        </mfrac>
+                        <mo>=</mo>
+                        <mfrac>
+                            <mn>2</mn>
+                            <mn>1</mn>
+                        </mfrac>
+                        <mo>,</mo>
+                        <mspace width="10px" height="10px"></mspace>
+                        <mfrac>
+                            <mrow>
+                                <mi>A</mi>
+                                <mi>F</mi>
+                            </mrow>
+                            <mrow>
+                                <mi>A</mi>
+                                <mi>B</mi>
+                            </mrow>
+                        </mfrac>
+                        <mo>=</mo>
+                        <mfrac>
+                            <mn>2</mn>
+                            <mn>1</mn>
+                        </mfrac>
+                        <mo>⇒</mo>
+                        <mfrac>
+                            <mrow>
+                                <mi>A</mi>
+                                <mi>F</mi>
+                            </mrow>
+                            <mrow>
+                                <mi>A</mi>
+                                <mi>B</mi>
+                            </mrow>
+                        </mfrac>
+                        <mo>=</mo>
+                        <mfrac>
+                            <mrow>
+                                <mi>A</mi>
+                                <mi>E</mi>
+                            </mrow>
+                            <mrow>
+                                <mi>A</mi>
+                                <mi>D</mi>
+                            </mrow>
+                        </mfrac>
+                    </math>
+                </p>
+                <p>Следовательно, <i>∆AEF~∆ADB ⇒ EF</i> || <i>DB</i></p>
+                <p>Из того, что <i>AF=AG=18</i> и <i>AB=AC=27</i> следует, что <i>CC=FB=9</i>.</p>
+                <p>Из соотношений</p>
+                <p>
+                    <math display="block">
+                        <mfrac>
+                            <mrow>
+                                <mi>A</mi>
+                                <mi>G</mi>
+                            </mrow>
+                            <mrow>
+                                <mi>A</mi>
+                                <mi>C</mi>
+                            </mrow>
+                        </mfrac>
+                        <mo>=</mo>
+                        <mfrac>
+                            <mn>2</mn>
+                            <mn>1</mn>
+                        </mfrac>
+                        <mo>,</mo>
+                        <mspace width="10px" height="10px"></mspace>
+                        <mfrac>
+                            <mrow>
+                                <mi>A</mi>
+                                <mi>E</mi>
+                            </mrow>
+                            <mrow>
+                                <mi>A</mi>
+                                <mi>D</mi>
+                            </mrow>
+                        </mfrac>
+                        <mo>=</mo>
+                        <mfrac>
+                            <mn>2</mn>
+                            <mn>1</mn>
+                        </mfrac>
+                        <mo>⇒</mo>
+                        <mfrac>
+                            <mrow>
+                                <mi>A</mi>
+                                <mi>G</mi>
+                            </mrow>
+                            <mrow>
+                                <mi>A</mi>
+                                <mi>C</mi>
+                            </mrow>
+                        </mfrac>
+                        <mo>=</mo>
+                        <mfrac>
+                            <mrow>
+                                <mi>A</mi>
+                                <mi>E</mi>
+                            </mrow>
+                            <mrow>
+                                <mi>A</mi>
+                                <msup>
+                                    <mi>D</mi>
+                                    <mi>,</mi>
+                                </msup>
+                            </mrow>
+                        </mfrac>
+                    </math>
+                </p>
+                <p>
+                    <math display="block">
+                        <mi>&#8736</mi>
+                        <mi>E</mi>
+                        <mi>A</mi>
+                        <mi>G</mi>
+                        <mo>=</mo>
+                        <mi>&#8736</mi>
+                        <mi>D</mi>
+                        <mi>A</mi>
+                        <mi>C</mi>
+                    </math>
+                </p>
+                <p>следовательно, <math display="inline">
+                        <mrow>
+                            <mo>∆</mo>
+                            <mi>A</mi>
+                            <mi>D</mi>
+                            <mi>H</mi>
+                            <mo>~</mo>
+                            <mo>∆</mo>
+                            <mi>A</mi>
+                            <mi>D</mi>
+                            <mi>C</mi>
+                            <mo>⇒</mo>
+                            <mi>E</mi>
+                            <mi>G</mi>
+                            <mo>∥</mo>
+                            <mi>D</mi>
+                            <mi>C</mi>
+                        </mrow>
+                    </math>.</p>
+                <p>Имеем:</p>
+                <p>
+                    <math display="block">
+                        <mtable class="rigth_close">
+                            <mtr>
+                                <mtd>
+                                    <mi>E</mi>
+                                    <mi>F</mi>
+                                    <mo>∥</mo>
+                                    <mi>D</mi>
+                                    <mi>B</mi>
+                                    <mspace width="5px"></mspace>
+                                    <ms>и</ms>
+                                    <mspace width="5px"></mspace>
+                                    <mi>E</mi>
+                                    <mi>G</mi>
+                                    <mo>∥</mo>
+                                    <mi>D</mi>
+                                    <mi>C</mi>
+                                </mtd>
+                            </mtr>
+                            <mtr>
+                                <mtd>
+                                    <mi>E</mi>
+                                    <mi>F</mi>
+                                    <mo>∩</mo>
+                                    <mi>E</mi>
+                                    <mi>G</mi>
+                                    <mspace width="5px"></mspace>
+                                    <ms>и</ms>
+                                    <mspace width="5px"></mspace>
+                                    <mi>D</mi>
+                                    <mi>B</mi>
+                                    <mo>∩</mo>
+                                    <mi>D</mi>
+                                    <mi>C</mi>
+                                </mtd>
+                            </mtr>
+                            <mtr>
+                                <mtd>
+                                    <mi>E</mi>
+                                    <mi>F</mi>
+                                    <mspace width="5px"></mspace>
+                                    <ms>и</ms>
+                                    <mspace width="5px"></mspace>
+                                    <mi>E</mi>
+                                    <mi>G</mi>
+                                    <mo>&#x2282;</mo>
+                                    <mi>F</mi>
+                                    <mi>G</mi>
+                                    <mi>E</mi>
+                                </mtd>
+                            </mtr>
+                            <mtr>
+                                <mtd>
+                                    <mi>D</mi>
+                                    <mi>B</mi>
+                                    <mspace width="5px"></mspace>
+                                    <ms>и</ms>
+                                    <mspace width="5px"></mspace>
+                                    <mi>D</mi>
+                                    <mi>C</mi>
+                                    <mo>&#x2282;</mo>
+                                    <mi>D</mi>
+                                    <mi>B</mi>
+                                    <mi>C</mi>
+                                </mtd>
+                            </mtr>
+                        </mtable>
+                        <mo>⇒</mo>
+                        <mi>F</mi>
+                        <mi>G</mi>
+                        <mi>E</mi>
+                        <mo>∥</mo>
+                        <mi>D</mi>
+                        <mi>B</mi>
+                        <mi>C</mi>
+                        <mspace width="5px"></mspace>
+                        <mtext>(признак параллельности)</mtext>
+                    </math>
+                </p>
+                <p>ч.т.д.</p>
+                <p>б)
+                    <math display="inline">
+                        <msub>
+                            <mi>V</mi>
+                            <mrow>
+                                <mi>D</mi>
+                                <mi>A</mi>
+                                <mi>B</mi>
+                                <mi>C</mi>
+                            </mrow>
+                        </msub>
+                        <mo>=</mo>
+                        <mfrac>
+                            <mrow>
+                                <mn>1</mn>
+                            </mrow>
+                            <mrow>
+                                <mn>3</mn>
+                            </mrow>
+                        </mfrac>
+                        <mo>&#8901</mo>
+                        <mi>D</mi>
+                        <mi>H</mi>
+                        <mo>&#8901</mo>
+                        <msub>
+                            <mi>S</mi>
+                            <mrow>
+                                <mo>∆</mo>
+                                <mi>A</mi>
+                                <mi>B</mi>
+                                <mi>C</mi>
+                            </mrow>
+                        </msub>
+                        <mo>=</mo>
+                        <mfrac>
+                            <mrow>
+                                <mn>1</mn>
+                            </mrow>
+                            <mrow>
+                                <mn>3</mn>
+                            </mrow>
+                        </mfrac>
+                        <mo>&#8901</mo>
+                        <mi>D</mi>
+                        <mi>H</mi>
+                        <mo>&#8901</mo>
+                        <mo>=</mo>
+                        <mfrac>
+                            <mrow>
+                                <mn>1</mn>
+                            </mrow>
+                            <mrow>
+                                <mn>2</mn>
+                            </mrow>
+                        </mfrac>
+                        <mo>&#8901</mo>
+                        <mi>A</mi>
+                        <mi>B</mi>
+                        <mo>&#8901</mo>
+                        <mi>A</mi>
+                        <mi>C</mi>
+                        <mo>&#8901</mo>
+                        <mi>sin</mi>
+                        <msup>
+                            <mn>60</mn>
+                            <mo>°</mo>
+                        </msup>
+                        <mo>=</mo>
+                        <mfrac>
+                            <mrow>
+                                <mn>2187</mn>
+                                <msqrt>
+                                    <mn>3</mn>
+                                </msqrt>
+                            </mrow>
+                            <mrow>
+                                <mn>4</mn>
+                            </mrow>
+                        </mfrac>
+                    </math>
+                </p>
+                <p>По теореме косинуса в
+                    <math display="inline">
+                        <mo>∆</mo>
+                        <mi>D</mi>
+                        <mi>B</mi>
+                        <mi>C</mi>
+                    </math>
+                    :
+                </p>
+                <p>По основному тригонометрическому тождеству:</p>
+                <p>
+                    <math display="block">
+                        <mi>sin</mi>
+                        <mi>&#8736</mi>
+                        <mi>B</mi>
+                        <mi>D</mi>
+                        <mi>C</mi>
+                        <mo>=</mo>
+                        <msqrt>
+                            <mrow>
+                                <mn>1</mn>
+                                <mo>-</mo>
+                                <mfrac>
+                                    <mrow>
+                                        <mn>1</mn>
+                                    </mrow>
+                                    <mrow>
+                                        <mn>64</mn>
+                                    </mrow>
+                                </mfrac>
+                            </mrow>
+                        </msqrt>
+                        <mo>=</mo>
+                        <mfrac>
+                            <mrow>
+                                <msqrt>
+                                    <mn>63</mn>
+                                </msqrt>
+                            </mrow>
+                            <mrow>
+                                <mn>8</mn>
+                            </mrow>
+                        </mfrac>
+                    </math>
+                </p>
+                <p>
+                    <math display="block">
+                        <msub>
+                            <mi>V</mi>
+                            <mrow>
+                                <mo>∆</mo>
+                                <mi>D</mi>
+                                <mi>B</mi>
+                                <mi>C</mi>
+                            </mrow>
+                        </msub>
+                        <mo>=</mo>
+                        <mfrac>
+                            <mrow>
+                                <mn>1</mn>
+                            </mrow>
+                            <mrow>
+                                <mn>2</mn>
+                            </mrow>
+                        </mfrac>
+                        <mo>&#8901</mo>
+                        <mi>D</mi>
+                        <mi>B</mi>
+                        <mo>&#8901</mo>
+                        <mi>D</mi>
+                        <mi>C</mi>
+                        <mo>&#8901</mo>
+                        <mi>sin</mi>
+                        <mi>&#8736</mi>
+                        <mi>B</mi>
+                        <mi>D</mi>
+                        <mi>C</mi>
+                        <mo>=</mo>
+                        <mfrac>
+                            <mrow>
+                                <mn>243</mn>
+                                <msqrt>
+                                    <mn>7</mn>
+                                </msqrt>
+                            </mrow>
+                            <mrow>
+                                <mn>4</mn>
+                            </mrow>
+                        </mfrac>
+                    </math>
+                </p>
+                <p>Пусть</p>
                 <img src="upload/triangle1.png" alt="" class="triangle_img">
             </div>
         </div>
