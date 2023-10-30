@@ -40,6 +40,23 @@ mtd {
     padding: 2px;
 }
 
+.text_with_image {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.text_with_image > p {
+    /* width: 40%; */
+}
+
+.img_in_txt {
+    width: 350px;
+    height: 350px;
+}
+
 i {
     /* font-style: italic; */
 }
