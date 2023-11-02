@@ -48,22 +48,9 @@ mtd {
     width: 100%;
 }
 
-.text_with_image > p {
-    /* width: 40%; */
-}
-
 .img_in_txt {
     width: 350px;
-    height: 350px;
 }
-
-i {
-    /* font-style: italic; */
-}
-
-/* math > * {
-    font-family: unset;
-} */
 
 .header {
     display: flex;
