@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,300;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,300;1,400&display=swap"
+        rel="stylesheet">
     </style>
 
 </head>
@@ -34,27 +35,674 @@
         <div class="tasks">
             <div class="task">
                 <h3>Пример №3</h3>
-                <p>В кубе ABCDA_1 B_1 C_1 D_1 c длиной ребра 3 точки E и F – середины ребер AA_1 и CD соответственно.
-                    Точка G расположена на диагонали B_1 D_1 так, что B_1 G=2GD_1. Точка M – середина отрезка ЕG, точка
-                    P расположена на отрезке GF так, что GP=2PF. Найдите расстояние между точками M и P.</p>
+                <p>В кубе
+                    <math>
+                        <mi>A</mi>
+                        <mi>B</mi>
+                        <mi>C</mi>
+                        <mi>D</mi>
+                        <msub>
+                            <mi>A</mi>
+                            <mn>1</mn>
+                        </msub>
+                        <msub>
+                            <mi>B</mi>
+                            <mn>1</mn>
+                        </msub>
+                        <msub>
+                            <mi>C</mi>
+                            <mn>1</mn>
+                        </msub>
+                        <msub>
+                            <mi>D</mi>
+                            <mn>1</mn>
+                        </msub>
+                    </math>
+                    c длиной ребра
+                    <math>
+                        <mn>3</mn>
+                    </math>
+                    точки
+                    <math>
+                        <mi>E</mi>
+                    </math>
+                    и
+                    <math>
+                        <mi>F</mi>
+                    </math>
+                    – середины ребер
+                    <math>
+                        <mi>A</mi>
+                        <msub>
+                            <mi>A</mi>
+                            <mn>1</mn>
+                        </msub>
+                    </math>
+                    и
+                    <math>
+                        <mi>C</mi>
+                        <mi>D</mi>
+                    </math>
+                    соответственно.
+                    Точка
+                    <math>
+                        <mi>G</mi>
+                    </math>
+                    расположена на диагонали
+                    <math>
+                        <msub>
+                            <mi>B</mi>
+                            <mn>1</mn>
+                        </msub>
+                        <msub>
+                            <mi>D</mi>
+                            <mn>1</mn>
+                        </msub>
+                    </math>
+                    так, что
+                    B_1 G=2GD_1
+                    <math>
+                        <msub>
+                            <mi>B</mi>
+                            <mn>1</mn>
+                        </msub>
+                        <mi>G</mi>
+                        <mo>=</mo>
+                        <mn>2</mn>
+                        <mi>G</mi>
+                        <msub>
+                            <mi>D</mi>
+                            <mn>1</mn>
+                        </msub>
+                    </math>
+                    . Точка
+
+                    <math>
+                        <mi>M</mi>
+                    </math>
+                    – середина отрезка
+                    ЕG
+                    <math>
+                        <mi>E</mi>
+                        <mi>G</mi>
+                    </math>
+                    , точка
+                    <math>
+                        <mi>P</mi>
+                    </math>
+                    расположена на отрезке
+                    <math>
+                        <mi>G</mi>
+                        <mi>F</mi>
+                    </math>
+                    , точка
+                    так, что
+                    <math>
+                        <mi>G</mi>
+                        <mi>P</mi>
+                        <mo>=</mo>
+                        <mn>2</mn>
+                        <mi>P</mi>
+                        <mi>F</mi>
+                    </math>
+                    . Найдите расстояние между точками
+                    <math>
+                        <mi>M</mi>
+                    </math>
+                    и
+                    <math>
+                        <mi>P</mi>
+                    </math>
+                    .
+                </p>
                 <h3>Решение</h3>
-                <p> Введем декартову систему координат. За начало координат примем вершину A, оси направим вдоль
-                    выходящих из этой точки ребер, т.е. ребра AD, AB и AA_1 расположим на осях Ox, Oy и Oz
-                    соответственно.</p>
+                <p> Введем декартову систему координат. За начало координат примем вершину
+                    <math>
+                        <mi>A</mi>
+                    </math>
+                    , оси направим вдоль
+                    выходящих из этой точки ребер, т.е. ребра
+                    <math>
+                        <mi>A</mi>
+                        <mi>D</mi>
+                    </math>
+                    ,
+                    <math>
+                        <mi>A</mi>
+                        <mi>B</mi>
+                    </math>
+                    и
+                    <math>
+                        <mi>A</mi>
+                        <msub>
+                            <mi>A</mi>
+                            <mn>1</mn>
+                        </msub>
+                    </math>
+                    расположим на осях
+                    <math>
+                        <mi>O</mi>
+                        <mi>x</mi>
+                    </math>
+                    ,
+                    <math>
+                        <mi>O</mi>
+                        <mi>y</mi>
+                    </math>
+                    и
+                    <math>
+                        <mi>O</mi>
+                        <mi>z</mi>
+                    </math>
+                    соответственно.
+                </p>
+                <p>
+                    Тогда можем найди координаты точeк:
+                    <math>
+                        <mi>E</mi>
+                        <mo>(</mo>
+                        <mn>0</mn>
+                        <mi>;</mi>
+                        <mn>0</mn>
+                        <mi>;</mi>
+                        <mfrac>
+                            <mn>3</mn>
+                            <mn>2</mn>
+                        </mfrac>
+                        <mo>)</mo>
+                    </math>,
+                    <math>
+                        <mi>F</mi>
+                        <mo>(</mo>
+                        <mn>3</mn>
+                        <mi>;</mi>
+                        <mfrac>
+                            <mn>3</mn>
+                            <mn>2</mn>
+                        </mfrac>
+                        <mi>;</mi>
+                        <mn>0</mn>
+                        <mo>)</mo>
+                    </math>,
+                    <math>
+                        <mi>B</mi>
+                        <mo>(</mo>
+                        <mn>0</mn>
+                        <mi>;</mi>
+                        <mn>3</mn>
+                        <mi>;</mi>
+                        <mn>3</mn>
+                        <mo>)</mo>
+                    </math>,
+                    <math>
+                        <msub>
+                            <mi>D</mi>
+                            <mn>1</mn>
+                        </msub>
+                        <mo>(</mo>
+                        <mn>3</mn>
+                        <mi>;</mi>
+                        <mn>0</mn>
+                        <mi>;</mi>
+                        <mn>3</mn>
+                        <mo>)</mo>
+                    </math>.
+                </p>
+                <p>
+                    Для нахождения координат точки
+                    <math>
+                        <mi>G</mi>
+                    </math>
+                    используем формулы координат точки, делящей отрезок
+                    <math>
+                        <msub>
+                            <mi>B</mi>
+                            <mn>1</mn>
+                        </msub>
+                        <msub>
+                            <mi>D</mi>
+                            <mn>1</mn>
+                        </msub>
+                    </math>
+                    2:1
+                </p>
+                <p>
+                    <math display="block">
+                        <mi>G</mi>
+                        <mo>(</mo>
+                        <mfrac>
+                            <mrow>
+                                <mn>0</mn>
+                                <mo>+</mo>
+                                <mn>2</mn>
+                                <mo>∙</mo>
+                                <mn>3</mn>
+                            </mrow>
+                            <mrow>
+                                <mn>1</mn>
+                                <mo>+</mo>
+                                <mn>2</mn>
+                            </mrow>
+                        </mfrac>
+                        <mo>;</mo>
+                        <mfrac>
+                            <mrow>
+                                <mn>3</mn>
+                                <mo>+</mo>
+                                <mn>2</mn>
+                                <mo>∙</mo>
+                                <mn>0</mn>
+                            </mrow>
+                            <mrow>
+                                <mn>1</mn>
+                                <mo>+</mo>
+                                <mn>2</mn>
+                            </mrow>
+                        </mfrac>
+                        <mo>;</mo>
+                        <mfrac>
+                            <mrow>
+                                <mn>3</mn>
+                                <mo>+</mo>
+                                <mn>2</mn>
+                                <mo>∙</mo>
+                                <mn>3</mn>
+                            </mrow>
+                            <mrow>
+                                <mn>1</mn>
+                                <mo>+</mo>
+                                <mn>2</mn>
+                            </mrow>
+                        </mfrac>
+                        <mo>)</mo>
+                        <mo>=</mo>
+                        <mi>(</mi>
+                        <mn>2</mn>
+                        <mo>;</mo>
+                        <mn>1</mn>
+                        <mo>;</mo>
+                        <mn>3</mn>
+                        <mi>)</mi>
+                        <mi>.</mi>
+                    </math>
+                </p>
+                <p>
+                    Аналогично получим координаты точки
+                    P
+                    <math>
+                        <mi>P</mi>
+                    </math>
+                    , делящей отрезок
+                    GF
+                    <math>
+                        <mi>G</mi>
+                        <mi>F</mi>
+                    </math>
+                    в отношении 2:1
+                </p>
+                <p>
+                    <math display="block">
+                        <mi>P</mi>
+                        <mo>(</mo>
+                        <mfrac>
+                            <mrow>
+                                <mn>2</mn>
+                                <mo>+</mo>
+                                <mn>2</mn>
+                                <mo>∙</mo>
+                                <mn>3</mn>
+                            </mrow>
+                            <mrow>
+                                <mn>1</mn>
+                                <mo>+</mo>
+                                <mn>2</mn>
+                            </mrow>
+                        </mfrac>
+                        <mo>;</mo>
+                        <mfrac>
+                            <mrow>
+                                <mn>1</mn>
+                                <mo>+</mo>
+                                <mn>2</mn>
+                                <mo>∙</mo>
+                                <mfrac>
+                                    <mn>3</mn>
+                                    <mn>2</mn>
+                                </mfrac>
+                            </mrow>
+                            <mrow>
+                                <mn>1</mn>
+                                <mo>+</mo>
+                                <mn>2</mn>
+                            </mrow>
+                        </mfrac>
+                        <mo>;</mo>
+                        <mfrac>
+                            <mrow>
+                                <mn>3</mn>
+                                <mo>+</mo>
+                                <mn>2</mn>
+                                <mo>∙</mo>
+                                <mn>0</mn>
+                            </mrow>
+                            <mrow>
+                                <mn>1</mn>
+                                <mo>+</mo>
+                                <mn>2</mn>
+                            </mrow>
+                        </mfrac>
+                        <mo>)</mo>
+                        <mo>=</mo>
+                        <mi>(</mi>
+                        <mfrac>
+                            <mn>8</mn>
+                            <mn>3</mn>
+                        </mfrac>
+                        <mo>;</mo>
+                        <mfrac>
+                            <mn>4</mn>
+                            <mn>3</mn>
+                        </mfrac>
+                        <mo>;</mo>
+                        <mn>1</mn>
+                        <mi>)</mi>
+                        <mi>.</mi>
+                    </math>
+                </p>
+                <p>
+                    По формуле координат середины отрезка найдем координаты точки
+                    <math>
+                        <mi>M</mi>
+                    </math>
+                    , которая по условию является серединой отрезкой
+                    <math>
+                        <mi>E</mi>
+                        <mi>G</mi>
+                    </math>
+                </p>
+                <p>
+                    <math display="block">
+                        <mi>M</mi>
+                        <mo>(</mo>
+                        <mfrac>
+                            <mrow>
+                                <mn>0</mn>
+                                <mo>+</mo>
+                                <mn>2</mn>
+                            </mrow>
+                            <mrow>
+                                <mn>2</mn>
+                            </mrow>
+                        </mfrac>
+                        <mo>;</mo>
+                        <mfrac>
+                            <mrow>
+                                <mn>0</mn>
+                                <mo>+</mo>
+                                <mn>2</mn>
+                            </mrow>
+                            <mrow>
+                                <mn>2</mn>
+                            </mrow>
+                        </mfrac>
+                        <mo>;</mo>
+                        <mfrac>
+                            <mrow>
+                                <mfrac>
+                                    <mn>3</mn>
+                                    <mn>2</mn>
+                                </mfrac>
+                                <mo>+</mo>
+                                <mn>3</mn>
+                            </mrow>
+                            <mrow>
+                                <mn>2</mn>
+                            </mrow>
+                        </mfrac>
+                        <mo>)</mo>
+                        <mo>=</mo>
+                        <mi>(</mi>
+                        <mn>1</mn>
+                        <mo>;</mo>
+                        <mfrac>
+                            <mn>1</mn>
+                            <mn>2</mn>
+                        </mfrac>
+                        <mo>;</mo>
+                        <mfrac>
+                            <mn>9</mn>
+                            <mn>4</mn>
+                        </mfrac>
+                        <mi>)</mi>
+                        <mi>.</mi>
+                    </math>
+                </p>
+                <p>
+                    По формуле расстояния между точками, заданными своими координатами, найдем расстояние между точками
+                    <math>
+                        <mi>P</mi>
+                    </math>
+                    и
+                    <math>
+                        <mi>M</mi>
+                    </math>
+                </p>
+                <p>
+                    <math display="block">
+                        <mi>PM</mi>
+                        <mo>=</mo>
+                        <msqrt>
+                            <mrow>
+                                <msup>
+                                    <mrow>
+                                        <mo>(</mo>
+                                        <mn>1</mn>
+                                        <mo>-</mo>
+                                        <mfrac>
+                                            <mn>8</mn>
+                                            <mn>3</mn>
+                                        </mfrac>
+                                        <mo>)</mo>
+                                    </mrow>
+                                    <mn>2</mn>
+                                </msup>
+                                <mo>+</mo>
+                                <msup>
+                                    <mrow>
+                                        <mo>(</mo>
+                                        <mfrac>
+                                            <mn>1</mn>
+                                            <mn>2</mn>
+                                        </mfrac>
+                                        <mo>-</mo>
+                                        <mfrac>
+                                            <mn>4</mn>
+                                            <mn>3</mn>
+                                        </mfrac>
+                                        <mo>)</mo>
+                                    </mrow>
+                                    <mn>2</mn>
+                                </msup>
+                                <mo>+</mo>
+                                <msup>
+                                    <mrow>
+                                        <mo>(</mo>
+                                        <mfrac>
+                                            <mn>9</mn>
+                                            <mn>4</mn>
+                                        </mfrac>
+                                        <mo>-</mo>
+                                        <mn>1</mn>
+                                        <mo>)</mo>
+                                    </mrow>
+                                    <mn>2</mn>
+                                </msup>
+                            </mrow>
+                        </msqrt>
+                        <mo>=</mo>
+                        <mfrac>
+                            <mrow>
+                                <mn>5</mn>
+                                <msqrt>
+                                    <mn>29</mn>
+                                </msqrt>
+                            </mrow>
+                            <mn>12</mn>
+                        </mfrac>
+                        <mi>.</mi>
+                    </math>
+                </p>
+                <p>
+                    Ответ:
+                    <math>
+                        <mfrac>
+                            <mrow>
+                                <mn>5</mn>
+                                <msqrt>
+                                    <mn>29</mn>
+                                </msqrt>
+                            </mrow>
+                            <mn>12</mn>
+                        </mfrac>
+                        <mi>.</mi>
+                    </math>
+                </p>
                 <img src="upload/cube_decart.png" alt="">
             </div>
         </div>
         <div class="tasks">
             <div class="task">
                 <h3>Задача №5</h3>
-                <p>В правильной треугольной пирамиде SABC боковые ребра равны 6, а сторона основания равна 4. Найдите
-                    высоту пирамиды SD.</p>
+                <p>В правильной треугольной пирамиде
+                    <math>
+                        <mi>S</mi>
+                        <mi>A</mi>
+                        <mi>B</mi>
+                        <mi>C</mi>
+                    </math>
+                    боковые ребра равны
+                    <math>
+                        <mn>6</mn>
+                    </math>
+                    , а сторона основания равна
+                    <math>
+                        <mn>4</mn>
+                    </math>
+                    . Найдите
+                    высоту пирамиды
+                    <math>
+                        <mi>S</mi>
+                        <mi>D</mi>
+                    </math>
+                    .
+                </p>
             </div>
             <div class="task">
                 <h3>Задача №6</h3>
-                <p>В кубе ABCDA_1 B_1 C_1 D_1 c длиной ребра 9 точка E – середина ребра AB. Точка F лежит на ребре AD
-                    так, что AF=3DF. Точка M расположена на диагонали A_1 C_1 так, что A_1 M=2MC_1. Точка G – середина
-                    отрезка ЕF. Найдите расстояние между точками M и G.</p>
+                <p>В кубе
+                    <math>
+                        <mi>A</mi>
+                        <mi>B</mi>
+                        <mi>C</mi>
+                        <mi>D</mi>
+                        <msub>
+                            <mi>A</mi>
+                            <mn>1</mn>
+                        </msub>
+                        <msub>
+                            <mi>B</mi>
+                            <mn>1</mn>
+                        </msub>
+                        <msub>
+                            <mi>C</mi>
+                            <mn>1</mn>
+                        </msub>
+                        <msub>
+                            <mi>D</mi>
+                            <mn>1</mn>
+                        </msub>
+                    </math>
+                    c длиной ребра
+                    <math>
+                        <mn>9</mn>
+                    </math>
+                    точка
+                    <math>
+                        <mi>E</mi>
+                    </math>
+                    – середина ребра
+                    <math>
+                        <mi>A</mi>
+                        <mi>B</mi>
+                    </math>
+                    . Точка
+                    <math>
+                        <mi>F</mi>
+                    </math>
+                    лежит на ребре
+                    <math>
+                        <mi>A</mi>
+                        <mi>D</mi>
+                    </math>
+                    так, что
+                    <math>
+                        <mi>A</mi>
+                        <mi>F</mi>
+                        <mo>=</mo>
+                        <mn>3</mn>
+                        <mi>D</mi>
+                        <mi>F</mi>
+                    </math>
+                    . Точка
+                    <math>
+                        <mi>M</mi>
+                    </math>
+                    расположена на диагонали
+                    <math>
+                        <msub>
+                            <mi>A</mi>
+                            <mn>1</mn>
+                        </msub>
+                        <msub>
+                            <mi>C</mi>
+                            <mn>1</mn>
+                        </msub>
+                    </math>
+                    так, что
+                    <math>
+                        <msub>
+                            <mi>A</mi>
+                            <mn>1</mn>
+                        </msub>
+                        <mi>M</mi>
+                        <mo>=</mo>
+                        <mn>2</mn>
+                        <mi>M</mi>
+                        <msub>
+                            <mi>C</mi>
+                            <mn>1</mn>
+                        </msub>
+                    </math>
+                    . Точка
+                    <math>
+                        <mi>G</mi>
+                    </math>
+                    – середина
+                    отрезка
+                    <math>
+                        <mi>E</mi>
+                        <mi>F</mi>
+                    </math>
+                    . Найдите расстояние между точками
+                    <math>
+                        <mi>M</mi>
+                    </math>
+                    и
+                    <math>
+                        <mi>G</mi>
+                    </math>
+                    .
+                </p>
             </div>
         </div>
 
