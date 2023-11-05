@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,300;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,300;1,400&display=swap"
+        rel="stylesheet">
     </style>
 
 </head>
@@ -28,29 +29,342 @@
         <div class="tasks">
             <div class="task">
                 <h3>Пример №5</h3>
-                <p>В основании правильной четырехугольной призмы ABCDA_1 B_1 C_1 D_1 лежит квадрат ABCD со стороной 6,
-                    боковое ребро равно 2√3. Точки K и L лежат соответственно на ребрах BC и C_1 D_1 так, что BK=C_1
-                    L=2. Плоскость γ проходит через точки K и L и параллельна диагонали основания BD.</p>
-                <p>а) Докажите, что прямая AC_1 перпендикулярная плоскости γ.</p>
-                <p>б) Найдите объем пирамиды, основанием которой является сечение параллелепипеда плоскостью γ, а
-                    вершиной – точка A_1.</p>
-                <h3>Решение</h3>
-                <p>Перед тем как перейти к решению построим плоскость γ.
-                    По свойству боковых ребер правильной четырехугольной призмы 〖BB〗_1 DD_1 и 〖BB〗_1=DD_1,
-                    следовательно, 〖BB〗_1 DD_1 – параллелограмм, значит, B_1 D_1 BD. Проведем KMBD и SLB_1 D_1. По
-                    признаку параллельности трех прямых SLKM.
+                <p>В основании правильной четырехугольной призмы
+                    <math>
+                        <mi>A</mi>
+                        <mi>B</mi>
+                        <mi>C</mi>
+                        <mi>D</mi>
+                        <msub>
+                            <mi>A</mi>
+                            <mn>1</mn>
+                        </msub>
+                        <msub>
+                            <mi>B</mi>
+                            <mn>1</mn>
+                        </msub>
+                        <msub>
+                            <mi>C</mi>
+                            <mn>1</mn>
+                        </msub>
+                        <msub>
+                            <mi>D</mi>
+                            <mn>1</mn>
+                        </msub>
+                    </math>
+                    лежит квадрат
+                    <math>
+                        <mi>A</mi>
+                        <mi>B</mi>
+                        <mi>C</mi>
+                        <mi>D</mi>
+                    </math>
+                    со стороной
+                    <math>
+                        <mn>6</mn>
+                    </math>
+                    , боковое ребро равно
+                    <math>
+                        <mn>2</mn>
+                        <msqrt>
+                            <mn>3</mn>
+                        </msqrt>
+                    </math>
+                    . Точки
+                    <math>
+                        <mi>K</mi>
+                    </math>
+                    и
+                    <math>
+                        <mi>L</mi>
+                    </math>
+                    лежат соответственно на ребрах
+                    <math>
+                        <mi>B</mi>
+                        <mi>C</mi>
+                    </math>
+                    и
+                    <math>
+                        <msub>
+                            <mi>C</mi>
+                            <mn>1</mn>
+                        </msub>
+                        <msub>
+                            <mi>D</mi>
+                            <mn>1</mn>
+                        </msub>
+                    </math>
+                    так, что
+                    <math>
+                        <mi>B</mi>
+                        <mi>K</mi>
+                        <mo>=</mo>
+                        <msub>
+                            <mi>C</mi>
+                            <mn>1</mn>
+                        </msub>
+                        <mi>L</mi>
+                        <mo>=</mo>
+                        <mn>2</mn>
+                    </math>
+                    . Плоскость
+                    <math>
+                        <mi>γ</mi>
+                    </math>
+                    проходит через точки
+                    <math>
+                        <mi>K</mi>
+                    </math>
+                    и
+                    <math>
+                        <mi>L</mi>
+                    </math>
+                    и параллельна диагонали основания
+                    <math>
+                        <mi>B</mi>
+                        <mi>D</mi>
+                        <mi>.</mi>
+                    </math>
                 </p>
-                <img src="upload/prism2.png" alt="">
+                <p>а) Докажите, что прямая
+                    <math>
+                        <mi>A</mi>
+                        <msub>
+                            <mi>C</mi>
+                            <mn>1</mn>
+                        </msub>
+                    </math>
+                    перпендикулярная плоскости
+                    <math>
+                        <mi>γ</mi>
+                        <mi>.</mi>
+                    </math>
+                </p>
+                <p>б) Найдите объем пирамиды, основанием которой является сечение параллелепипеда плоскостью
+                    <math>
+                        <mi>γ</mi>
+                    </math>
+                    , а вершиной – точка
+                    <math>
+                        <msub>
+                            <mi>A</mi>
+                            <mn>1</mn>
+                        </msub>
+                        <mi>.</mi>
+                    </math>
+                </p>
+                <h3>Решение</h3>
+                <div class="text_with_image">
+                    <img src="upload/prism2.png" alt="" class="img_in_txt">
+                    <p>Перед тем как перейти к решению построим плоскость
+                        <math>
+                            <mi>γ</mi>
+                            <mi>.</mi>
+                        </math>
+                        По свойству боковых ребер правильной четырехугольной призмы
+                        <math>
+                            <mi>B</mi>
+                            <msub>
+                                <mi>B</mi>
+                                <mn>1</mn>
+                            </msub>
+                            <mo>&#8741</mo>
+                            <mi>D</mi>
+                            <msub>
+                                <mi>D</mi>
+                                <mn>1</mn>
+                            </msub>
+                        </math>
+                        и
+                        <math>
+                            <mi>B</mi>
+                            <msub>
+                                <mi>B</mi>
+                                <mn>1</mn>
+                            </msub>
+                            <mo>=</mo>
+                            <mi>D</mi>
+                            <msub>
+                                <mi>D</mi>
+                                <mn>1</mn>
+                            </msub>
+                            <mi>,</mi>
+                        </math>
+                        следовательно,
+                        <math>
+                            <mi>B</mi>
+                            <msub>
+                                <mi>B</mi>
+                                <mn>1</mn>
+                            </msub>
+                            <mi>D</mi>
+                            <msub>
+                                <mi>D</mi>
+                                <mn>1</mn>
+                            </msub>
+                        </math>
+                        – параллелограмм, значит,
+                        <math>
+                            <msub>
+                                <mi>B</mi>
+                                <mn>1</mn>
+                            </msub>
+                            <msub>
+                                <mi>D</mi>
+                                <mn>1</mn>
+                            </msub>
+                            <mo>&#8741</mo>
+                            <mi>B</mi>
+                            <mi>D</mi>
+                            <mi>.</mi>
+                        </math>
+                        Проведем
+                        <math>
+                            <mi>K</mi>
+                            <mi>M</mi>
+                            <mo>&#8741</mo>
+                            <mi>B</mi>
+                            <mi>D</mi>
+                        </math>
+                        и
+                        <math>
+                            <mi>S</mi>
+                            <mi>L</mi>
+                            <mo>&#8741</mo>
+                            <msub>
+                                <mi>B</mi>
+                                <mn>1</mn>
+                            </msub>
+                            <msub>
+                                <mi>D</mi>
+                                <mn>1</mn>
+                            </msub>
+                            <mi>.</mi>
+                        </math>
+                        По признаку параллельности трех прямых
+                        <math>
+                            <mi>S</mi>
+                            <mi>L</mi>
+                            <mo>&#8741</mo>
+                            <mi>K</mi>
+                            <mi>M</mi>
+                            <mi>.</mi>
+                        </math>
+                    </p>
+                </div>
+                <p>
+                    Через две параллельные прямые проходит единственная плоскость
+                    <math>
+                        <mi>K</mi>
+                        <mi>S</mi>
+                        <mi>L</mi>
+                        <mi>M</mi>
+                        <mi>.</mi>
+                    </math>
+                </p>
+                <p>
+                    <math display="block">
+                        <mtable class="rigth_close">
+                            <mtr>
+                                <mtd>
+                                    <mi>K</mi>
+                                    <mi>M</mi>
+                                    <mo>&#8741</mo>
+                                    <mi>B</mi>
+                                    <mi>D</mi>
+                                </mtd>
+                            </mtr>
+                            <mtr>
+                                <mtd>
+                                    <mi>K</mi>
+                                    <mi>M</mi>
+                                    <mo>⊂</mo>
+                                    <mi>K</mi>
+                                    <mi>S</mi>
+                                    <mi>L</mi>
+                                    <mi>M</mi>
+                                </mtd>
+                            </mtr>
+                        </mtable>
+                        <mo>⇒</mo>
+                        <mi>B</mi>
+                        <mi>D</mi>
+                        <mo>&#8741</mo>
+                        <mi>K</mi>
+                        <mi>S</mi>
+                        <mi>L</mi>
+                        <mi>M</mi>
+                        <mtext>(по признаку параллельности прямой и плоскости).</mtext>
+                    </math>
+                </p>
+                <p>
+                    Имеем:
+                    <math display="block">
+                        <mtable class="rigth_close">
+                            <mtr>
+                                <mtd>
+                                    <mi>B</mi>
+                                    <mi>D</mi>
+                                    <mo>&#8741</mo>
+                                    <mi>K</mi>
+                                    <mi>S</mi>
+                                    <mi>L</mi>
+                                    <mi>M</mi>
+                                </mtd>
+                            </mtr>
+                            <mtr>
+                                <mtd>
+                                    <mi>т</mi>
+                                    <mi>.</mi>
+                                    <mspace width="5px"></mspace>
+                                    <mi>K</mi>
+                                    <mo>∈</mo>
+                                    <mi>K</mi>
+                                    <mi>S</mi>
+                                    <mi>L</mi>
+                                    <mi>M</mi>
+                                </mtd>
+                            </mtr>
+                            <mtr>
+                                <mtd>
+                                    <mi>т</mi>
+                                    <mi>.</mi>
+                                    <mspace width="5px"></mspace>
+                                    <mi>K</mi>
+                                    <mo>∈</mo>
+                                    <mi>K</mi>
+                                    <mi>S</mi>
+                                    <mi>L</mi>
+                                    <mi>M</mi>
+                                </mtd>
+                            </mtr>
+                        </mtable>
+                        <mo>⇒</mo>
+                        <mi>K</mi>
+                        <mi>S</mi>
+                        <mi>L</mi>
+                        <mi>M</mi>
+                        <mtext>– плоскость</mtext>
+                        <mspace width="5px"></mspace>
+                        <mi>γ</mi>
+                        <mi>.</mi>
+                    </math>
+                </p>
             </div>
         </div>
         <div class="tasks">
             <div class="task">
                 <h3>Задача №9</h3>
-                <p>В основании правильной треугольной призмы ABCA_1 B_1 C_1 лежит треугольник ABC со стороной 18, боковое ребро равно 9. Точки E и F лежат соответственно на ребрах AB и B_1 C_1 так, что AE=B_1 F=6. Плоскость β проходит через точки E и F параллельно ребру AC. Докажите, что прямая BM перпендикулярная плоскости β, где точка M середина A_1 C_1.</p>
+                <p>В основании правильной треугольной призмы ABCA_1 B_1 C_1 лежит треугольник ABC со стороной 18,
+                    боковое ребро равно 9. Точки E и F лежат соответственно на ребрах AB и B_1 C_1 так, что AE=B_1 F=6.
+                    Плоскость β проходит через точки E и F параллельно ребру AC. Докажите, что прямая BM
+                    перпендикулярная плоскости β, где точка M середина A_1 C_1.</p>
             </div>
             <div class="task">
                 <h3>Задача №10</h3>
-                <p>В кубе ABCDA_1 B_1 C_1 D_1, ребро которого равно 10, точки K и L лежат на ребрах DD_1 и BC соответственно, причем KD:KD_1=1:4, а точка L – середина ребра BC. Найдите угол между прямыми KL и CB_1.</p>
+                <p>В кубе ABCDA_1 B_1 C_1 D_1, ребро которого равно 10, точки K и L лежат на ребрах DD_1 и BC
+                    соответственно, причем KD:KD_1=1:4, а точка L – середина ребра BC. Найдите угол между прямыми KL и
+                    CB_1.</p>
             </div>
         </div>
 
