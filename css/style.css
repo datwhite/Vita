@@ -42,6 +42,9 @@ math {
     border-left: 1px solid black;
     padding-left: 5px;
 }
+.ctd {
+    text-align: end;
+}
 
 mtd {
     padding: 2px;
